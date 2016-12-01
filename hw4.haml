@@ -1,0 +1,16 @@
+!!! 5
+%html
+%head
+  %title This will be written in HAML
+  %meta{:content => "haml file will be produced from this html document", :name => "description"}/
+  %meta{:charset => "utf-8"}/
+%body
+  #wrapper
+    %header
+      %h1 HTML document
+    .content
+      / This is a simple comment in my HTML document
+      %p A simple HTML document that will be transformed into HAML
+      %img{:alt => "just a fake image, no image at all", :src => "fakeimage.jpg"}/
+    %footer
+      %address 50 Phelan Ave, San Francisco, CA
